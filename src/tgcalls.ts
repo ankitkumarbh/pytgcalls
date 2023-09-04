@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import { RTCPeerConnection } from 'wrtc';
+import { RTCPeerConnection } from '@koush/wrtc';
 import { SdpBuilder } from './sdp-builder';
 import {LogLevel, uuid, parseSdp, second, getErrorMessage} from './utils';
 import {Conference, JoinVoiceCallCallback, JoinVoiceCallResponse, Sdp} from './types';

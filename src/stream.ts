@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import {RTCAudioSource, nonstandard, RTCVideoSource} from 'wrtc';
+import {RTCAudioSource, nonstandard, RTCVideoSource} from '@koush/wrtc';
 import { Binding } from './binding';
 import {RemoteLaggingCallback, RemotePlayingTimeCallback} from "./types";
 import {FFmpegReader} from "./ffmpeg_reader";

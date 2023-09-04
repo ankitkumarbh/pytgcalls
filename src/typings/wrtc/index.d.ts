@@ -1,7 +1,7 @@
 // https://github.com/node-webrtc/node-webrtc/pull/656
 /// <reference lib="dom" />
 
-declare module 'wrtc' {
+declare module '@koush/wrtc' {
     export const MediaStream: {
         prototype: MediaStream;
         new (): MediaStream;
